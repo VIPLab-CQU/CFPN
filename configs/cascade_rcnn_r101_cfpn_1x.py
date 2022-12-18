@@ -225,6 +225,7 @@ log_config = dict(
     ])
 # yapf:enable
 # runtime settings
+
 total_epochs = 12
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
